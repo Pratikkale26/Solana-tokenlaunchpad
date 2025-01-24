@@ -2,8 +2,6 @@ import { ConnectionProvider, WalletProvider } from "@solana/wallet-adapter-react
 import { WalletDisconnectButton, WalletModalProvider, WalletMultiButton } from "@solana/wallet-adapter-react-ui"
 import '@solana/wallet-adapter-react-ui/styles.css';
 import { TokenLaunchPad } from "./components/TokenLaunchPad";
-import { Buffer } from "buffer";
-(window).Buffer = Buffer; // Polyfill Buffer for the browser
 
 
 
